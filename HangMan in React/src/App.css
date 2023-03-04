@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 700px;
+}
+#keyboardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 700px;
+  min-width: none;
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.keyboard {
+  border-radius: 10px;
+  font-size: 16px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid black;
+  color: #ab6161;
+}
+.hangman {
+  width: 400px;
+}
+
+.lines {
+  font-size: 60px;
+  background-color: rgb(237, 244, 242);
+}
+
+#gameOverWord {
+  margin-top: 0px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+#startButton {
+  font-size: 16px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  color: #ab6161;
+}
+
+.startButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.restartButton {
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(191, 57, 57);
+}
+
+#win {
+  color: green;
+}
+
+h5 {
+  margin-bottom: 5px;
+}
